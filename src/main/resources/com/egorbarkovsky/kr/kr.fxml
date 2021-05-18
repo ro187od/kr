@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory?>
+
+
+<?import javafx.scene.control.Spinner?>
+<AnchorPane
+        fx:controller="com.egorbarkovsky.kr.MyController"
+        maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="671.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#ok" layoutX="435.0" layoutY="578.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="50.0" text="Ок" />
+      <Button layoutX="529.0" layoutY="579.0" mnemonicParsing="false" onAction="#reset" text="Сброс" />
+      <Button layoutX="615.0" layoutY="579.0" mnemonicParsing="false" text="Выход" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="40.0" fx:id="firstExpertZ11" layoutY="71.0" prefHeight="25.0" prefWidth="70.0"/>
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="40.0" fx:id="firstExpertZ21" layoutY="133.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="40.0" fx:id="firstExpertZ31" layoutY="197.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="121.0" fx:id="firstExpertZ32" layoutY="197.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="121.0" fx:id="firstExpertZ22" layoutY="133.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="121.0" fx:id="firstExpertZ12" layoutY="71.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="200.0" fx:id="firstExpertZ13" layoutY="196.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="200.0" fx:id="firstExpertZ23" layoutY="132.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="200.0" fx:id="firstExpertZ33" layoutY="70.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="406.0" fx:id="secondExpertZ11" layoutY="70.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="406.0" fx:id="secondExpertZ31" layoutY="196.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="406.0" fx:id="secondExpertZ21" layoutY="132.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="487.0" fx:id="secondExpertZ32" layoutY="196.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="487.0" fx:id="secondExpertZ22" layoutY="132.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="487.0" fx:id="secondExpertZ12" layoutY="70.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="564.0" fx:id="secondExpertZ33" layoutY="196.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="564.0" fx:id="secondExpertZ23" layoutY="132.0" prefHeight="25.0" prefWidth="70.0" />
+      <Spinner editable="true"
+               min="0" max="20" initialValue="1" amountToStepBy="1" layoutX="564.0" fx:id="secondExpertZ13" layoutY="70.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="38.0"  fx:id="jTextField19" layoutY="345.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="41.0" fx:id="jTextField30" layoutY="418.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="122.0" fx:id="jTextField29" layoutY="418.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="119.0" fx:id="jTextField20" layoutY="345.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="201.0" fx:id="jTextField28" layoutY="417.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="198.0" fx:id="jTextField21" layoutY="344.0" prefHeight="25.0" prefWidth="60.0" />
+      <Button layoutX="406.0" layoutY="264.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="212.0" text="Заполнить матрицу второго эксперта" />
+      <Button layoutX="40.0" layoutY="264.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="212.0" text="Заполнить матрицу первого эксперта" />
+      <TextField layoutX="4.0" fx:id="jTextField33" layoutY="529.0" prefHeight="26.0" prefWidth="199.0" />
+      <TextField layoutX="237.0" fx:id="jTextField31" layoutY="529.0" prefHeight="26.0" prefWidth="199.0" />
+      <TextField layoutX="462.0" fx:id="jTextField32" layoutY="529.0" prefHeight="26.0" prefWidth="199.0" />
+      <TextField layoutX="404.0" fx:id="jTextField22" layoutY="345.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="407.0" fx:id="jTextField27" layoutY="418.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="488.0" fx:id="jTextField26" layoutY="418.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="485.0" fx:id="jTextField23" layoutY="345.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="567.0" fx:id="jTextField25" layoutY="417.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField layoutX="564.0" fx:id="jTextField24"  layoutY="345.0" prefHeight="25.0" prefWidth="70.0" />
+      <Label layoutX="58.0" layoutY="47.0" text="Z1" />
+      <Label layoutX="218.0" layoutY="47.0" text="Z3" />
+      <Label layoutX="140.0" layoutY="47.0" text="Z2" />
+      <Label layoutX="24.0" layoutY="200.0" text="Z3" />
+      <Label layoutX="24.0" layoutY="137.0" text="Z2" />
+      <Label layoutX="24.0" layoutY="75.0" text="Z1" />
+      <Label layoutX="426.0" layoutY="47.0" text="Z1" />
+      <Label layoutX="586.0" layoutY="47.0" text="Z3" />
+      <Label layoutX="508.0" layoutY="47.0" text="Z2" />
+      <Label layoutX="392.0" layoutY="199.0" text="Z3" />
+      <Label layoutX="392.0" layoutY="136.0" text="Z2" />
+      <Label layoutX="392.0" layoutY="74.0" text="Z1" />
+      <Label layoutX="88.0" layoutY="505.0" text="W1" />
+      <Label layoutX="586.0" layoutY="505.0" text="W3" />
+      <Label layoutX="330.0" layoutY="505.0" text="W2" />
+      <Label layoutX="53.0" layoutY="399.0" text="V11" />
+      <Label layoutX="213.0" layoutY="399.0" text="V13" />
+      <Label layoutX="135.0" layoutY="399.0" text="V12" />
+      <Label layoutX="418.0" layoutY="326.0" text="f21" />
+      <Label layoutX="578.0" layoutY="326.0" text="f23" />
+      <Label layoutX="500.0" layoutY="326.0" text="f22" />
+      <Label layoutX="424.0" layoutY="399.0" text="V21" />
+      <Label layoutX="584.0" layoutY="399.0" text="V23" />
+      <Label layoutX="506.0" layoutY="399.0" text="V22" />
+      <Label layoutX="53.0" layoutY="326.0" text="f11" />
+      <Label layoutX="213.0" layoutY="326.0" text="f13" />
+      <Label layoutX="135.0" layoutY="326.0" text="f12" />
+      <Label layoutX="274.0" layoutY="308.0" text="Оценка предприятий" />
+      <Label layoutX="233.0" layoutY="381.0" text="Нормированнык оценки: N = n(n-1)" />
+      <Label layoutX="275.0" layoutY="453.0" text="Искомые веса целей" />
+      <Label layoutX="15.0" layoutY="14.0" text="Оценка первого эксперта" />
+      <Label layoutX="373.0" layoutY="23.0" text="Оценка второго эксперта" />
+   </children>
+</AnchorPane>
